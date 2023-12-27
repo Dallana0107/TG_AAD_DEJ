@@ -1,6 +1,11 @@
+## Código de visualización de imágenes en tiempo real
+
 from maix import display, camera
 while True:
     display.show(camera.capture())
+
+
+## Código de captura de imágenes
 
 from maix import camera, display
 import os
@@ -35,6 +40,9 @@ while True:
     
     # Esperar 3 segundos antes de capturar la siguiente imagen
     time.sleep(3)
+
+
+## Código de procesamiento de imágenes
 
 import cv2
 import numpy as np
