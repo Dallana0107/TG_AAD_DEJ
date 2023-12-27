@@ -19,6 +19,9 @@ img = camera.capture()
 img.save('/root/tmp.png')
 display.show(img)
 
+
+
+
 from maix import camera, display, image
 camera.config(size=(640, 360))
 while True:
@@ -35,6 +38,10 @@ while True:
     img = camera.capture()
     img = img.lens_corr(strength=1.8, zoom=1.0)
     display.show(img)
+
+
+
+
 
 from maix import camera, display
 import os
@@ -69,6 +76,9 @@ while True:
     
     # Esperar 3 segundos antes de capturar la siguiente imagen
     time.sleep(3)
+
+
+
 
 from maix import image, display, camera
 color = [
