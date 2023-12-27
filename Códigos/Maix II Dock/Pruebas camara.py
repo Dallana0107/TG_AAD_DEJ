@@ -1,3 +1,5 @@
+
+
 from maix import display, camera
 while True:
     display.show(camera.capture())
@@ -19,6 +21,10 @@ camera.config(size=(640, 360))
 while True:
     img = camera.capture()
     display.show(img)
+
+
+
+
 
 from maix import camera, display, image
 camera.config(size=(640, 360))
