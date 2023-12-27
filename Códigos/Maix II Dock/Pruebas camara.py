@@ -4,6 +4,9 @@ from maix import display, camera
 while True:
     display.show(camera.capture())
 
+
+
+
 #Formato JPG
 from maix import camera, display
 img = camera.capture()
